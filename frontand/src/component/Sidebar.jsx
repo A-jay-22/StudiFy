@@ -43,14 +43,14 @@ export const Sidebar = ({
         <a
           href="#dashboard"
           className="mb-8 flex items-center gap-2.5 px-2 group"
-          aria-label="StudyAI home"
+          aria-label="StudiFy home"
           onClick={() => onSelectPage("Dashboard")}
         >
           <span className="grid h-10 w-10 place-items-center rounded-2xl bg-white/10 text-[#9fb7ff] transition-transform duration-300 group-hover:scale-105 group-hover:bg-white/15">
             <GraduationCap size={25} strokeWidth={2.3} />
           </span>
           <span className="font-display text-[20px] font-extrabold tracking-tight">
-            Study<span className="text-[#94aaff]">AI</span>
+            Studi<span className="text-[#94aaff]">Fy</span>
           </span>
         </a>
 

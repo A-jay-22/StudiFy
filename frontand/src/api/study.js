@@ -15,7 +15,7 @@ async function request(path, options = {}) {
       headers,
     });
   } catch {
-    throw new Error("Cannot reach the StudyAI server. Check that the backend is running.");
+    throw new Error("Cannot reach the Stud server. Check that the backend is running.");
   }
 
   const data = await response.json().catch(() => ({}));

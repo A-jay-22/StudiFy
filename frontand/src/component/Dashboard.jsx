@@ -97,7 +97,7 @@ const actions = [
     description: "Personalized topics",
     icon: Sparkles,
     tone: "purple",
-    message: "Tell StudyAI what you want to learn next.",
+    message: "Tell StudiFy what you want to learn next.",
     page: "Create Topic (AI)",
   },
   {
@@ -741,7 +741,7 @@ export const Dashboard = ({ user, onLogout, onUpdateUser }) => {
             </section>
           )}
           <footer className="mt-8 flex flex-wrap items-center justify-between gap-2 border-t border-[#e7edf7] pt-4 text-[10px] text-[#9aa7ba]">
-            <span>© 2026 StudyAI. Keep learning, one step at a time.</span>
+            <span>© 2026 StudiFy. Keep learning, one step at a time.</span>
             <span className="flex items-center gap-1">
               Made for curious minds <Check size={12} className="text-[#2cae80]" />
             </span>

@@ -159,7 +159,7 @@ export const AskAI = ({ preselectedMaterial = null }) => {
             }}
             className="h-9 rounded-xl border border-gray-200 bg-white px-3 text-xs font-semibold text-gray-700 outline-none focus:border-blue-500"
           >
-            <option value="">🌐 General Study AI (No file attached)</option>
+            <option value="">🌐 General StudiFy (No file attached)</option>
             {materials.map((m) => (
               <option key={m._id} value={m._id}>
                 📄 {m.file?.name || m.title}

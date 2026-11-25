@@ -390,7 +390,7 @@ export const Login = ({ onLogin, initialError = "" }) => {
                 <GraduationCap size={26} strokeWidth={2.4} />
               </span>
               <span className="font-display text-2xl font-black tracking-[-0.04em]">
-                Study<span className="text-[#89b4ff]">AI</span>
+                Studi<span className="text-[#89b4ff]">Fy</span>
               </span>
             </div>
             <h2 className="mt-8 font-display text-2xl font-black leading-tight sm:text-3xl tracking-tight">
